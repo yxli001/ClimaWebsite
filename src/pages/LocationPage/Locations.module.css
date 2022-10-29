@@ -1,22 +1,46 @@
 .locationContainer {
-    background-color: #0fa958;
-    color: white;
-    padding: 5% 0px;
+  background-color: #0fa958;
+  color: white;
+  padding: 5% 0px;
 }
 
 .title {
-    font-weight: 500;
-    padding-bottom: 22px;
+  font-weight: 500;
+  padding-bottom: 22px;
 }
 
 .locationsContainer {
-    display: flex;
-    padding: 0 15%;
-    align-items: center;
+  display: flex;
+  padding: 0 12.5%;
+  align-items: center;
 }
 
-@media screen and (max-width: 1550px) {
-    .locationContainer {
-        margin: 0px -200px;
-    }
+@media screen and (max-width: 1300px) {
+  .locationsContainer {
+    padding: 0 7.5%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .locationsContainer {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .locationsContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+  }
 }

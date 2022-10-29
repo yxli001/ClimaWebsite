@@ -1,0 +1,45 @@
+.benefitsContainer {
+    background-color: #3a887c;
+    color: white;
+    padding: 5% 0px;
+}
+
+.benefitsList {
+    display: flex;
+    margin-top: 50px;
+    padding: 0 15%;
+}
+
+.title {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    .benefitsList {
+        padding: 0 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .benefitsList {
+        padding: 0 7.5%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .benefitsList {
+        padding: 0 5%;
+    }
+    .benefitsContainer {
+        padding: 5% 2%;
+    }
+}
+@media screen and (max-width: 840px) {
+    .benefitsList {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 28px;
+    }
+}

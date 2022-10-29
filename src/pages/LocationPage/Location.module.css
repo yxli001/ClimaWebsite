@@ -1,0 +1,29 @@
+.locationContainer {
+    padding: 2.5% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.text {
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.locationsContainer {
+    display: flex;
+    padding: 0 15%;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+    .locationsContainer {
+        flex-direction: column;
+        display: block;
+    }
+}

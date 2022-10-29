@@ -1,0 +1,22 @@
+.locationContainer {
+    background-color: #0fa958;
+    color: white;
+    padding: 5% 0px;
+}
+
+.title {
+    font-weight: 500;
+    padding-bottom: 22px;
+}
+
+.locationsContainer {
+    display: flex;
+    padding: 0 15%;
+    align-items: center;
+}
+
+@media screen and (max-width: 1550px) {
+    .locationContainer {
+        margin: 0px -200px;
+    }
+}

@@ -1,29 +1,29 @@
 .footerContainer {
-    background-color: #0c5449;
-    padding: 1% 20% 1%;
+  background-color: #0c5449;
+  padding: 1% 2% 1%;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    color: #5ba59a;
-    text-align: left;
+  color: #5ba59a;
+  text-align: left;
 }
 
 .left {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .link {
-    color: #5ba59a;
-    text-decoration: none;
+  color: #5ba59a;
+  text-decoration: none;
 }
 
 .link:hover {
-    color: #327268;
+  color: #327268;
 }
 
 .copyright {
-    font-family: "Source Code Pro", monospace;
-    letter-spacing: -1.2px;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: -1.2px;
 }
